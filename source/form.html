@@ -35,6 +35,80 @@
         <h2 class="visually-hidden">Добро пожаловать в Седону!</h2>
         <p class="intro__welcome"><img src="https://via.placeholder.com/150x150"  width="282" height="48" alt="Седона"></p>
       </section>
+      <section class="feedback">
+        <h2 class="visually-hidden">Оставить отзыв</h2>
+        <p class="feedback__title">Оставьте свой отзыв</p>
+        <p class="feedback__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
+      <section class="form__name">
+        <h2 class="form__name--title">Представьтесь:*</h2>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <p>
+            <label for="name">Имя*</label>
+            <input id="name" type="text" placeholder="Петр" required>
+          </p>
+          <p>
+            <label for="surname">Фамилия*</label>
+            <input id="surname" type="text" placeholder="Иванов" required>
+          </p>
+          <p>
+            <label for="patronymic">Отчество</label>
+            <input id="patronymic" type="text" placeholder="Александрович">
+          </p>
+        </form>
+      </section>
+      <section class="form__contact">
+        <h2 class="form__contact--title">Контактная информация:</h2>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <p>
+            <label for="tel">Контактный телефон:*</label>
+            <input id="tel" type="tel" name="tel" placeholder="введите телефон" required>
+          </p>
+          <p>
+            <label for="email">Электронная почта:*</label>
+            <input id="email" type="email" name="email" placeholder="введите e-mail" required>
+          </p>
+        </form>
+      </section>
+      <section class="feeling">
+        <h2 class="feeling__title">Ваше общее впечатление:</h2>
+        <form class="form__feeling" action="https://echo.htmlacademy.ru">
+          <p>
+            <input type="radio" value="скорее положительное" name="feeling" checked>Скорее положительное
+          </p>
+          <p>
+            <input type="radio" value="скорее отрицательное" name="feeling">Скорее отрицательное
+          </p>
+          <p>
+            <input type="radio" value="затрудняюсь ответить" name="feeling">Затрудняюсь ответить
+          </p>
+        </form>
+      </section>
+      <section class="attractions">
+        <h2 class="attractions__title">Ваше общее впечатление:</h2>
+        <form class="form__attractions" action="https://echo.htmlacademy.ru">
+          <p>
+            <input type="checkbox" value="Мост дьявола" name="attractions" checked>Мост дьявола
+          </p>
+          <p>
+            <input type="checkbox" value="Гора-Колокол" name="attractions" checked>Гора-Колокол
+          </p>
+          <p>
+            <input type="checkbox" value="Слайд-парк" name="attractions" checked>Слайд-парк
+          </p>
+          <p>
+            <input type="checkbox" value="Красные скалы" name="attractions">Красные скалы
+          </p>
+        </form>
+      </section>
+      <section class="comment">
+        <h2 class="visually-hidden">Опишите свои эмоции</h2>
+        <form action="https://echo.htmlacademy.ru">
+          <p>Опишите свои эмоции:</p>
+          <textarea rows="10" cols="20" name="text" placeholder="Опишите подробно все свои восторги"></textarea>
+          <p><input type="submit"></p>
+        </form>
+      </section>
     </main>
     <footer class="page-footer">
       <p class="page-footer__label">#visitSEDONA</p>
